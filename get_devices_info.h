@@ -4,6 +4,6 @@
 # include <OpenCL/opencl.h>
 # include <stdio.h>
 
-void		get_devices_info(void);
+void		get_devices_info(cl_platform_id *platform_id);
 
 #endif
